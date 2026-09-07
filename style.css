@@ -1,0 +1,97 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Cairo', sans-serif;
+}
+
+body {
+    background-color: #f4f6f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 15px;
+}
+
+/* الحاوية الرئيسية بحد أقصى للعرض ومساحة مريحة */
+.card-container {
+    background: #ffffff;
+    width: 100%;
+    max-width: 420px;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+    text-align: center;
+}
+
+.logo-img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 12px;
+}
+
+.title {
+    color: #0d47a1;
+    margin-top: 15px;
+    font-size: 1.3rem;
+}
+
+.subtitle {
+    background: #f0f4f8;
+    color: #455a64;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 0.9rem;
+    margin: 15px 0;
+}
+
+.section-title {
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.contact-grid {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.column {
+    flex: 1;
+}
+
+.column h3 {
+    font-size: 0.95rem;
+    margin-bottom: 8px;
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 8px;
+    border-radius: 20px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 0.85rem;
+    transition: 0.2s ease;
+}
+
+.btn-phone { background-color: #0077b6; }
+.btn-whatsapp { background-color: #25d366; }
+.btn-facebook { background-color: #1877f2; font-size: 1rem; padding: 12px; }
+.btn-instagram { background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888); font-size: 1rem; padding: 12px; }
+.btn-tiktok { background-color: #000000; font-size: 1rem; padding: 12px; }
+
+.footer-address {
+    font-size: 0.8rem;
+    color: #666;
+    margin-top: 15px;
+    border-top: 1px solid #eee;
+    padding-top: 12px;
+}
