@@ -37,13 +37,13 @@ body {
     font-size: 1.3rem;
 }
 
-.subtitle {
-    background: #f0f4f8;
-    color: #455a64;
-    padding: 10px;
-    border-radius: 10px;
-    font-size: 0.9rem;
-    margin: 15px 0;
+.subtitle-box {
+    background-color: #f8f9fa;
+    padding: 12px 16px;
+    border-radius: 12px;
+    margin: 15px 0 20px;
+    border-right: 5px solid #0056b3; /* هذا هو السطر المسؤول عن الشريط الأزرق */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.03);
 }
 
 .section-title {
